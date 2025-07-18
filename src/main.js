@@ -1,13 +1,13 @@
-import { getImagesByQuery } from './pixabay-api';
+import { getImagesByQuery } from './js/pixabay-api.js';
 import {
   createGallery,
   clearGallery,
   showLoader,
   hideLoader,
-} from './render-functions';
+} from './js/render-functions.js';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-import '../css/styles.css';
+import './css/styles.css';
 
 const form = document.querySelector('.form');
 
